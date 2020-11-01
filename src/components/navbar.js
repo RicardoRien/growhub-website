@@ -42,7 +42,7 @@ export default function Navbar() {
             </Link>
 
             {/* Menu-Icon Bar / X */}
-            <div className="menu-icon" onClick={() => handleClick()}>
+            <div className="menu-icon" onClick={() => handleClick()} aria-hidden="true">
               {click ? <FaTimes /> : <FaBars />}
             </div>
 

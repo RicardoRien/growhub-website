@@ -1,34 +1,31 @@
-import React from "react";
-import './index.css';
+import React from 'react';
 import Layout from './../components/layout';
-import HeroSection from './../components/heroSection';
-import { tecnologia, comunidad, seguridad, estadistica } from '../data/indexData';
+import HeroSection from '../components/heroSection';
+import { seguridad, comunidad } from '../data/signupData';
 import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 
-
-const IndexPage = ({ data }) => {
+const SignUp = ({ data }) => {
   return (
     <Layout>
       <Helmet>
-        <title>GrowHub</title>
+        <title>GrowHub Sign-Up</title>
         <meta name="description" content={data.site.siteMetadata.description} />
         <meta name="keywords" content={data.site.siteMetadata.keywords} />
         <meta property="og:title" content={data.site.siteMetadata.title} />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Startup de horticultura tecnológica." />
-        <meta property="og:url" content={data.site.siteMetadata.url}/>
+        <meta property="og:url" content={`${data.site.siteMetadata.url}/signup`}/>
         <meta property="og:locale" content="es" />
-        <link rel="canonical" href={data.site.siteMetadata.url}/>
+        <link rel="canonical" href={`${data.site.siteMetadata.url}/signup`}/>
       </Helmet>
-      <HeroSection {...tecnologia} />
-      <HeroSection {...comunidad} />
       <HeroSection {...seguridad} />
-      <HeroSection {...estadistica} />
+      <HeroSection {...comunidad} />
     </Layout>
-  )
+  );
 }
-export default IndexPage;
+
+export default SignUp;
 
 export const query = graphql`
 {

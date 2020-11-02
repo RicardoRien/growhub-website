@@ -23,9 +23,8 @@ export default function Navbar() {
     }
   }
 
-  window.addEventListener('resize', showButton);
-
   useEffect(() => {
+    window.addEventListener('resize', showButton);
     showButton();
   }, [])
 

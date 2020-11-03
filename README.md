@@ -11,6 +11,6 @@
 - SEO with Gatsby/React-Helmet
 
 ## Captures:
-![Prinncipal Page](src\images\cap1.jpg)
-![Capture Page](src\images\cap3.jpg)
-![Capture Page](src\images\cap2.jpg)
+![Prinncipal Page](./src/images/cap1.jpg)
+![Capture Page](./src/images/cap3.jpg)
+![Capture Page](./src/images/cap2.jpg)

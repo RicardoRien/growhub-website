@@ -17,22 +17,18 @@ function Footer() {
       <section className='footer-subscription'>
         {/* Header */}
         <p className='footer-subscription-heading'>
-          Suscribete y te enviaremos las actualizaciones de nuestro sofware y datos importantes para ti.
+          Comparte este proyecto para hacer crecer esta comunidad tecnológica.
         </p>
         {/* Sub-Header */}
         <p className='footer-subscription-text'>
-          Tranquilo, no te enviaremos spam.
+          ¡Estamos atentos a cualquier sugerencia!
         </p>
         {/* Input */}
         <div className='input-areas'>
           <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Persona@mail.com'
-            />
-            <Button buttonStyle='btn--outline'>Suscribirse</Button>
+            <Link to='/signup'>
+              <Button buttonStyle='btn--outline'>Compartir</Button>
+            </Link>
           </form>
         </div>
       </section>

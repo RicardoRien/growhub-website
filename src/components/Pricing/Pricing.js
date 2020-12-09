@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from './button';
-import './pricing.css';
+import { Button } from '../Button/Button';
+import './Pricing.css';
 import { HiSun, HiOutlineLightBulb, HiOutlineGlobe } from 'react-icons/hi';
 import { IconContext } from 'react-icons/lib';
 import { Link } from 'gatsby';

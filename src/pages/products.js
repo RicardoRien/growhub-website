@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from './../components/layout';
-import HeroSection from '../components/heroSection';
+import Layout from './../components/Layout/Layout';
+import HeroSection from '../components/HeroSection/HeroSection';
 import { construction, cienciaDeDatos } from '../data/productsData';
 import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';

@@ -1,7 +1,7 @@
 import React from 'react';
-import Layout from './../components/layout';
-import Pricing from './../components/pricing';
-import HeroSection from '../components/heroSection';
+import Layout from './../components/Layout/Layout';
+import Pricing from './../components/Pricing/Pricing';
+import HeroSection from '../components/HeroSection/HeroSection';
 import { invest } from '../data/serviceData';
 import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';

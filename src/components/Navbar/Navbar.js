@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './navbar.css';
+import './Navbar.css';
+import { Button } from '../Button/Button';
 import { Link } from 'gatsby';
 import { GiFruitTree } from 'react-icons/gi';
-import {  FaBars, FaTimes } from 'react-icons/fa';
-import { Button } from './button';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 
 export default function Navbar() {

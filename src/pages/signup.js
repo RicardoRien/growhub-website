@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from './../components/layout';
-import HeroSection from '../components/heroSection';
+import Layout from './../components/Layout/Layout';
+import HeroSection from '../components/HeroSection/HeroSection';
 import { seguridad, comunidad } from '../data/signupData';
 import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';

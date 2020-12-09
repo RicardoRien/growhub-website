@@ -1,11 +1,10 @@
 import React from "react";
 import './index.css';
-import Layout from './../components/layout';
-import HeroSection from './../components/heroSection';
+import Layout from './../components/Layout/Layout';
+import HeroSection from './../components/HeroSection/HeroSection';
 import { tecnologia, comunidad, seguridad, estadistica } from '../data/indexData';
 import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
-
 
 const IndexPage = ({ data }) => {
   return (

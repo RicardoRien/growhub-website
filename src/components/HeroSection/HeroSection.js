@@ -1,7 +1,7 @@
 import React from 'react';
 import { Spring } from 'react-spring/renderprops';
-import './heroSection.css';
-import { Button } from './button';
+import './HeroSection.css';
+import { Button } from '../Button/Button';
 import { Link } from 'gatsby';
 
 function HeroSection ({

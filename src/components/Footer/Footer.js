@@ -1,6 +1,6 @@
 import React from 'react';
-import './footer.css';
-import { Button } from './button';
+import './Footer.css';
+import { Button } from '../Button/Button';
 import { Link } from 'gatsby';
 import {
   FaGithub,

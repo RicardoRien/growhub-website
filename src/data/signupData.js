@@ -10,6 +10,7 @@ export const seguridad = {
   description:
     'Cualquier dato que ingreses en nuestra plataforma será altamente blindado, tu data personal y sobre tus cultivos están blindados en nuestra plataforma y contamos con un grupo de expertos en ciberseguridad.',
   buttonLabel: '¡Registrate!',
+  linkTo: 'form',
   imgStart: '',
   img: sectwo,
   alt: 'Environment'
@@ -24,6 +25,7 @@ export const comunidad = {
   description:
     "Sin importar el tipo de cultivo, la comunidad aporta semanalmente grandes cambios y variaciones d nustro software modular para hacer más amplio la cartera de plantas que el usuario podrá cultivar sin procuparse.",
   buttonLabel: 'Abrir Repositorio',
+  linkTo: 'form',
   imgStart: 'start',
   img: programmer,
   alt: 'Programmer'

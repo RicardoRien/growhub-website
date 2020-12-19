@@ -10,6 +10,7 @@ export const construction = {
   description:
     'Ofrecemos huertos urbanos optimizados, usamos inteligencia artificial para saber cuando regar o cuanto luz necesita tu cultivo.',
   buttonLabel: 'Leer más',
+  linkTo: 'signup',
   imgStart: 'start',
   img: construct,
   alt: 'Data'
@@ -24,6 +25,7 @@ export const cienciaDeDatos = {
   description:
     'Analizamos los datos para ofrecer un mejor servicio y los abrimos anónimamente a la comunidad, para así enfocarnos en una mejor experiencia de usuario, cosechas más fértiles y ahorro de tiempo.',
   buttonLabel: 'Registrate Ahora',
+  linkTo: 'signup',
   imgStart: '',
   img: data,
   alt: 'Data'

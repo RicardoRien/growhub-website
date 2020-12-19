@@ -9,6 +9,7 @@ export const invest = {
   description:
     'Ofrecemos comodos planes de inversión. Ya contamos con patrocinantes y nuestros charts hablan por nosotros. El futuro es ahora.',
   buttonLabel: 'Invertir',
+  linkTo: 'signup',
   imgStart: 'start',
   img: inv,
   alt: 'Data'

@@ -12,6 +12,7 @@ export const tecnologia = {
   description:
     'Nuestro sofware te acesora, supervisa y mejora tus cultivos urbanos además de ser altamente soportada por la comunidad por su código abierto.',
   buttonLabel: '¡Empieza Ahora!',
+  linkTo: 'signup',
   imgStart: 'start',
   img: env,
   alt: 'Environment'
@@ -26,6 +27,7 @@ export const comunidad = {
   description:
     "Sin importar el tipo de cultivo, la comunidad aporta semanalmente grandes cambios y variaciones d nustro software modular para hacer más amplio la cartera de plantas que el usuario podrá cultivar sin procuparse.",
   buttonLabel: 'Abrir Repositorio',
+  linkTo: 'signup',
   imgStart: '',
   img: dev,
   alt: 'Programmer'
@@ -55,6 +57,7 @@ export const estadistica = {
   description:
     'Analizamos los datos para ofrecer un mejor servicio y los abrimos anónimamente a la comunidad, para así enfocarnos en una mejor experiencia de usuario, cosechas más fértiles y ahorro de tiempo.',
   buttonLabel: 'Registrate Ahora',
+  linkTo: 'signup',
   imgStart: '',
   img: data,
   alt: 'Data'

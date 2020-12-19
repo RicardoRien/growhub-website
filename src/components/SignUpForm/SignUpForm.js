@@ -50,7 +50,7 @@ function SignUpForm() {
       <textarea name="aboutyou" ref={register} />
 
       {/* Button Submit */}
-      <input className="form__submit" type="submit" value="Sign Up" />
+      <input className="form__submit" type="submit" value="Registrar" />
     </form>
 
   )
